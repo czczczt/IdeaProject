@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class a {
+public class Fifth {
     public static double withoutNds(double price, int percent) {
         return (price / (100 + percent)) * 100;
     }
