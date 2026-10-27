@@ -2,7 +2,7 @@ package task2;
 
 import java.util.Scanner;
 
-public class Fouth {
+public class Fourth {
     public static double func(double i) {
         System.out.println(i);
         System.out.println((int)i);
