@@ -1,6 +1,6 @@
 package task1;
 
-public class First {
+public class A {
     public static void main(String[] args) {
         char words = 'L';
         char f = 'n';

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Fourth {
+public class D {
     public static void main(String[] args) {
         String text = "Расчёт стоимости товара без НДС";
         System.out.println(text);

@@ -2,13 +2,13 @@ package task2;
 
 import java.util.Scanner;
 
-public class Fourth {
-    public static double func(double i) {
-        System.out.println(i);
-        System.out.println((int)i);
-        double x = Math.round((i - (int) i) * 1000000.0) / 1000000.0;;
+public class D {
+    public static double func(double x) {
+        double y = Math.round((x - (int) x) * 1000000.0) / 1000000.0; // double - int = double
         System.out.println(x);
-        return x;
+        System.out.println((int) x);
+        System.out.println(y);
+        return y;
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

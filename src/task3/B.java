@@ -2,7 +2,7 @@ package task3;
 
 import java.util.Scanner;
 
-public class Second {
+public class B {
     public static void main(String[] args) {
         int[] arr = {6, 9, 1, 1, 1, 1, 6, 6, 7, 7, 4};
         String text = "";
