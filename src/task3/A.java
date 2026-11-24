@@ -1,19 +1,16 @@
 package task3;
 
-import java.util.Scanner;
-
 public class A {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6};
-        String ans = "";
-        for (int i = 0; i < arr.length; i++) {
-            if (i % 2 == 0) {
-                ans += arr[i / 2] + " ";
-            } else {
-                ans += arr[arr.length - 1 - i / 2] + " ";
+        int[] arr = {1, 2, 3, 4, 5};
+        int right = arr.length - 1;
+        for (int left = 0; left <= right; left++) {
+            System.out.print(arr[left] + " ");
+            if (left < right) {
+                System.out.print(arr[right] + " ");
+                right--;
             }
         }
-        System.out.println(ans);
     }
 }
 

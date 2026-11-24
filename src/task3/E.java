@@ -24,7 +24,7 @@ public class E {
                 if (num > 0) {
                     f = true;
                 } else {
-                    System.out.println("Число не может быть отрицательным или равным нулю1");
+                    System.out.println("Число не может быть отрицательным или равным нулю");
                 }
             } catch (Exception e) {
                 scanner.nextLine();
